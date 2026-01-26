@@ -6,22 +6,30 @@ CREATE TABLE Students (
 );
 
 
-INSERT INTO Students VALUES (1, 'Aman', 'Mohali', 85);
-INSERT INTO Students VALUES (2, 'Rohit', 'Mohali', 78);
-INSERT INTO Students VALUES (3, 'Neha', 'Mohali', 92);
-INSERT INTO Students VALUES (4, 'Simran', 'Amritsar', 88);
-INSERT INTO Students VALUES (5, 'Karan', 'Amritsar', 75);
+INSERT INTO Students VALUES (1, 'Aman', 'Chandigarh', 89);
+INSERT INTO Students VALUES (2, 'Rohit', 'Chandigarh', 82);
+INSERT INTO Students VALUES (3, 'Neha', 'Chandigarh', 95);
+INSERT INTO Students VALUES (4, 'Simran', 'Ludhiana', 91);
+INSERT INTO Students VALUES (5, 'Karan', 'Ludhiana', 79);
+INSERT INTO Students VALUES (24bai70081, 'Srijan Tripathi', 'Chandigarh', 87);
 
 SELECT * FROM students
 
-SELECT CITY, COUNT(*) AS NO_OF_STUDENT
+SELECT city, COUNT(id) AS student_count
 FROM Students
-GROUP BY City
-ORDER BY NO_OF_STUDENT ASC
+GROUP BY city;
 
-
-SELECT CITY, COUNT(*) AS NO_OF_STUDENT
+SELECT name, marks
 FROM Students
-GROUP BY City
+ORDER BY marks DESC;
+
+SELECT city, AVG(marks) AS average_marks
+FROM Students
+GROUP BY city
+HAVING AVG(marks) > 85;
+
+SELECT city, COUNT(*) AS student_count
+FROM Students
+GROUP BY city
 HAVING COUNT(*) > 2
-
+ORDER BY city ASC;
