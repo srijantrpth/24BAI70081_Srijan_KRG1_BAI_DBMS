@@ -60,7 +60,7 @@ FROM employees;
 **Output:**
 
 
-![Output](Exp5_Images/1.png)
+![Output](screenshots/1(1).png)
 
 
 ---

@@ -48,7 +48,7 @@ CREATE TABLE Employees(
 **Output:**
 
 
-![Output](Exp6_Images/1.png)
+![Output](screenshots/1.png)
 
 
 
@@ -64,7 +64,7 @@ COMMIT;
 **Output:**
 
 
-![Output](Exp6_Images/2.png)
+![Output](screenshots/2.png)
 
 
 
@@ -93,7 +93,7 @@ END;
 **Output:**
 
 
-![Output](Exp6_Images/3.png)
+![Output](screenshots/3.png)
 
 
 
@@ -136,7 +136,7 @@ END;
 **Output:**
 
 
-![Output](Exp6_Images/4.png)
+![Output](screenshots/4.png)
 
 
 ---

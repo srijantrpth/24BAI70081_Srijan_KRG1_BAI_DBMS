@@ -56,7 +56,7 @@ salary NUMERIC
 **Output:**
 
 
-![Output](Exp7_Images/1.png)
+![Output](screenshots/1.png)
 
 
 
@@ -74,7 +74,7 @@ INSERT INTO emps VALUES(106, 'Rohan', 1, 88000);
 **Output:**
 
 
-![Output](Exp7_Images/2.png)
+![Output](screenshots/2.png)
 
 
 
@@ -89,7 +89,7 @@ SELECT * FROM V_SIMPLE;
 **Output:**
 
 
-![Output](Exp7_Images/3.png)
+![Output](screenshots/3.png)
 
 
 
@@ -107,7 +107,7 @@ SELECT * FROM V_COMPLEX;
 **Output:**
 
 
-![Output](Exp7_Images/4.png)
+![Output](screenshots/4.png)
 
 
 
@@ -125,7 +125,7 @@ SELECT * FROM V_MATERIALIZED;
 **Output:**
 
 
-![Output](Exp7_Images/5.png)
+![Output](screenshots/5.png)
 
 
 
@@ -137,7 +137,7 @@ REFRESH MATERIALIZED VIEW V_MATERIALIZED;
 **Output:**
 
 
-![Output](Exp7_Images/6.png)
+![Output](screenshots/6.png)
 
 
 
@@ -149,7 +149,7 @@ EXPLAIN ANALYZE SELECT * FROM V_SIMPLE;
 **Output:**
 
 
-![Output](Exp7_Images/7.png)
+![Output](screenshots/7.png)
 
 
 
@@ -161,7 +161,7 @@ EXPLAIN ANALYZE SELECT * FROM V_COMPLEX;
 **Output:**
 
 
-![Output](Exp7_Images/8.png)
+![Output](screenshots/8.png)
 
 
 
@@ -173,7 +173,7 @@ EXPLAIN ANALYZE SELECT * FROM V_MATERIALIZED;
 **Output:**
 
 
-![Output](Exp7_Images/9.png)
+![Output](screenshots/9.png)
 
 ---
 

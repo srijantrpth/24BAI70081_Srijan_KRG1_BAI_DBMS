@@ -52,9 +52,9 @@ END;
 
 **Execution Output:**
 
-![Console Results 1](output_screenshots/run_1.png)
+![Console Results 1](image.png)
 
-![Console Results 1](output_screenshots/run_2.png)
+![Console Results 1](image1.png)
 
 
 **Program 2: Score Evaluation**
@@ -76,9 +76,9 @@ END;
 
 **Execution Output:**
 
-![Console Results 2](output_screenshots/run_3.png)
+![Console Results 2](image2.png)
 
-![Console Results 2](output_screenshots/run_4.png)
+![Console Results 2](image3.png)
 
 
 **Program 3: Classification by Range**
@@ -104,9 +104,9 @@ END;
 
 **Execution Output:**
 
-![Console Results 3](output_screenshots/run_5.png)
+![Console Results 3](image.png)
 
-![Console Results 3](output_screenshots/run_6.png)
+![Console Results 3](image1.png)
 
 
 **Program 4: Lookup Table Translation**
@@ -131,9 +131,9 @@ END;
 
 **Execution Output:**
 
-![Console Results 4](output_screenshots/run_7.png)
+![Console Results 4](image2.png)
 
-![Console Results 4](output_screenshots/run_8.png)
+![Console Results 4](image3.png)
 
 
 ---
